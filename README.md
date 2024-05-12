@@ -49,3 +49,14 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 - [ ] Add support to multi language (i18n)
 - [ ] Add support to dark mode
+
+## References
+
+- [Midudev](https://www.youtube.com/watch?v=HEMvsJTBweY&ab_channel=midulive)
+- [Astro Documentation](https://docs.astro.build)
+- [Tailwind](https://tailwindcss.com/)
+- [Flowbite](https://flowbite.com/)
+- [Tabler Icons](https://tabler.io/)
+- [SVGL](https://svgl.app/)
+- [BG Ibelick](https://bg.ibelick.com/)
+- [Font Source](https://fontsource.org/)
