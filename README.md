@@ -52,7 +52,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ## References
 
-- [Midudev](https://www.youtube.com/watch?v=HEMvsJTBweY&ab_channel=midulive)
+- [Midudev](https://youtu.be/HEMvsJTBweY?feature=shared&t=3422)
 - [Astro Documentation](https://docs.astro.build)
 - [Tailwind](https://tailwindcss.com/)
 - [Flowbite](https://flowbite.com/)

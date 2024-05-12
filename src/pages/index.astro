@@ -5,6 +5,9 @@ import GithubIcon from "../components/icons/GithubIcon.astro";
 import LinkedinIcon from "../components/icons/LinkedinIcon.astro";
 import SocialPills from "../components/SocialPills.astro";
 import MailSendIcon from "../components/icons/MailSendIcon.astro";
+import Experience from "../components/Experience.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Briefcase from "../components/icons/Briefcase.astro";
 ---
 
 <Layout
@@ -12,7 +15,7 @@ import MailSendIcon from "../components/icons/MailSendIcon.astro";
   description="Contratame por favors"
 >
   <main>
-    <section class="w-full lg:w-[740px] mx-auto py-44">
+    <SectionContainer class="py-44 pb-24">
       <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
         Hey, soy Confedev <a
           class="flex justify-center items-center"
@@ -40,6 +43,14 @@ import MailSendIcon from "../components/icons/MailSendIcon.astro";
           <MailSendIcon class="size-6" /> confedev@gmail.com
         </SocialPills>
       </nav>
-    </section>
+    </SectionContainer>
+
+    <SectionContainer>
+      <h2 class="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+        <Briefcase class="size-7" />
+        Experiencia laboral
+      </h2>
+      <Experience />
+    </SectionContainer>
   </main>
 </Layout>
