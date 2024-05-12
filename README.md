@@ -49,10 +49,11 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 - [ ] Add support to multi language (i18n)
 - [ ] Add support to dark mode
+- [ ] Import from JSON file all technologies and scores
 
 ## References
 
-- [Midudev](https://youtu.be/HEMvsJTBweY?feature=shared&t=3422)
+- [Midudev](https://youtu.be/HEMvsJTBweY?si=ZTiw_IcT_I6kVuFH&t=3944)
 - [Astro Documentation](https://docs.astro.build)
 - [Tailwind](https://tailwindcss.com/)
 - [Flowbite](https://flowbite.com/)
@@ -60,3 +61,4 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [SVGL](https://svgl.app/)
 - [BG Ibelick](https://bg.ibelick.com/)
 - [Font Source](https://fontsource.org/)
+- [Netlify Drop](https://app.netlify.com/drop)
