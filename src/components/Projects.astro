@@ -1,0 +1,67 @@
+---
+const PROJECTS = [
+  {
+    title: "Project 1",
+    description: "This is a project description",
+    image: "https://via.placeholder.com/150",
+    link: "https://www.google.com",
+    github: "https://www.github.com",
+    tags: ["CSS", "HTML", "JavaScript"],
+  },
+  {
+    title: "Project 2",
+    description: "This is a project description",
+    image: "https://via.placeholder.com/150",
+    link: "https://www.google.com",
+    github: "https://www.github.com",
+    tags: ["CSS", "HTML", "JavaScript"],
+  },
+  {
+    title: "Project 3",
+    description: "This is a project description",
+    image: "https://via.placeholder.com/150",
+    link: "https://www.google.com",
+    github: "https://www.github.com",
+    tags: ["CSS", "HTML", "JavaScript"],
+  },
+  {
+    title: "Project 4",
+    description: "This is a project description",
+    image: "https://via.placeholder.com/150",
+    link: "https://www.google.com",
+    github: "https://www.github.com",
+    tags: ["CSS", "HTML", "JavaScript"],
+  },
+  {
+    title: "Project 5",
+    description: "This is a project description",
+    image: "https://via.placeholder.com/150",
+    link: "https://www.google.com",
+    github: "https://www.github.com",
+    tags: ["CSS", "HTML", "JavaScript"],
+  },
+  {
+    title: "Project 6",
+    description: "This is a project description",
+    image: "https://via.placeholder.com/150",
+    link: "https://www.google.com",
+    github: "https://www.github.com",
+    tags: ["CSS", "HTML", "JavaScript"],
+  },
+];
+---
+
+{
+  PROJECTS.map(({ title, description, tags, image }) => (
+    <article>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <ul>
+        {tags.map((tag) => (
+          <li>{tag}</li>
+        ))}
+      </ul>
+      <img src={image} alt={`Project ${title}`} />
+    </article>
+  ))
+}

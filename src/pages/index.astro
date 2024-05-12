@@ -9,6 +9,7 @@ import Experience from "../components/Experience.astro";
 import SectionContainer from "../components/SectionContainer.astro";
 import BriefcaseIcon from "../components/icons/BriefcaseIcon.astro";
 import CodeIcon from "../components/icons/CodeIcon.astro";
+import Projects from "../components/Projects.astro";
 ---
 
 <Layout
@@ -16,7 +17,7 @@ import CodeIcon from "../components/icons/CodeIcon.astro";
   description="Contratame por favors"
 >
   <main class="px-4">
-    <SectionContainer id="top" class="py-44 pb-24">
+    <SectionContainer id="top" class="py-44 pb-32">
       <img
         class="rounded-full size-12"
         src="https://avatars.githubusercontent.com/u/65690957?s=96&v=4"
@@ -54,7 +55,7 @@ import CodeIcon from "../components/icons/CodeIcon.astro";
     </SectionContainer>
 
     <SectionContainer id="experience">
-      <h2 class="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
         <BriefcaseIcon class="size-7" />
         Experiencia laboral
       </h2>
@@ -62,11 +63,11 @@ import CodeIcon from "../components/icons/CodeIcon.astro";
     </SectionContainer>
 
     <SectionContainer id="projects">
-      <h2 class="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
         <CodeIcon class="size-7" />
         Projects
       </h2>
-      <Experience />
+      <Projects />
     </SectionContainer>
   </main>
 </Layout>
