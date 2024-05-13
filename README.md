@@ -50,10 +50,13 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [ ] Add support to multi language (i18n)
 - [ ] Add support to dark mode
 - [ ] Import from JSON file all technologies and scores
+- [ ] About me
+- [ ] Contact
+- [ ] CI/CD with GitHub Actions
 
 ## References
 
-- [Midudev](https://youtu.be/HEMvsJTBweY?si=BIn2pwzjKU6Myjql&t=4979)
+- [Midudev](https://youtu.be/HEMvsJTBweY) - [GitHub](https://github.com/midudev/porfolio.dev)
 - [Astro Documentation](https://docs.astro.build)
 - [Tailwind](https://tailwindcss.com/)
 - [Flowbite](https://flowbite.com/)
