@@ -62,3 +62,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [BG Ibelick](https://bg.ibelick.com/)
 - [Font Source](https://fontsource.org/)
 - [Netlify Drop](https://app.netlify.com/drop)
+- [Shots](https://shots.so/)
+- [Squoosh](https://squoosh.app/)
