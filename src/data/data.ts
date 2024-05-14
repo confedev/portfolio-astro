@@ -2,12 +2,12 @@ import NextjsIcon from "../components/icons/NextjsIcon.astro";
 import TailwindIcon from "../components/icons/TailwindIcon.astro";
 
 export const INFORMATION = {
-  NAME: "Felipe Contreras",
-  TITLE: "Full Stack Developer",
-  EMAIL: "confedev@gmail.com",
-  SITES: {
-    LINKEDIN: "https://www.linkedin.com/in/felipe-contreras-1b1b1b1b1/",
-    GITHUB: "https://www.github.com/felipe-contreras-1b1b1b1b1/",
+  name: "Felipe Contreras",
+  title: "Full Stack Developer",
+  email: "confedev@gmail.com",
+  sites: {
+    linkedin: "https://www.linkedin.com/in/felipe-contreras-1b1b1b1b1/",
+    github: "https://www.github.com/felipe-contreras-1b1b1b1b1/",
   },
 };
 
@@ -72,5 +72,16 @@ export const PROJECTS = [
     link: "https://www.google.com",
     github: "https://www.github.com",
     tags: [TAGS.NEXT, TAGS.TAILWIND],
+  },
+];
+
+export const TECHNOLOGIES = [
+  {
+    name: "Next.js",
+    score: 5,
+  },
+  {
+    name: "Tailwind CSS",
+    score: 4,
   },
 ];
