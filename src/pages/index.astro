@@ -10,6 +10,7 @@ import SectionContainer from "../components/SectionContainer.astro";
 import BriefcaseIcon from "../components/icons/BriefcaseIcon.astro";
 import CodeIcon from "../components/icons/CodeIcon.astro";
 import Projects from "../components/Projects.astro";
+import { INFORMATION } from "../data/data";
 ---
 
 <Layout
@@ -42,14 +43,15 @@ import Projects from "../components/Projects.astro";
         <span class="opacity-75">especializado en crear aplicacions</span>
       </h2>
       <nav class="flex gap-4 mt-8 flex-wrap">
-        <SocialPills href="https://www.linkedin.com">
+        <SocialPills href={INFORMATION.SITES.LINKEDIN}>
           <LinkedinIcon class="size-4 md:size-6" /> Linkedin
         </SocialPills>
-        <SocialPills href="https://www.github.com">
+        <SocialPills href={INFORMATION.SITES.GITHUB}>
           <GithubIcon class="size-4 md:size-6" /> github
         </SocialPills>
-        <SocialPills href="mailto:confedev@gmail.com">
-          <MailSendIcon class="size-4 md:size-6" /> confedev@gmail.com
+        <SocialPills href=`mailto:${INFORMATION.EMAIL}`>
+          <MailSendIcon class="size-4 md:size-6" />
+          {INFORMATION.EMAIL}
         </SocialPills>
       </nav>
     </SectionContainer>
