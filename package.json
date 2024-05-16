@@ -1,5 +1,7 @@
 {
   "name": "portfolio-astro",
+  "description": "A simple portfolio site built with Astro",
+  "author": "confedev",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
